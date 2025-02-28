@@ -6,7 +6,7 @@ from sklearn.svm import LinearSVC
 from sklearn.metrics import confusion_matrix
 
 titanic = sns.load_dataset('titanic')
-pd.set_option('future.no_silent_downcasting', True)
+
 # print(titanic[['sex','embarked','who','deck','class','adult_male','embark_town','alive']].head())
 
 # preprocess data
